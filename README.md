@@ -1,0 +1,1 @@
+# Configura-o-de-Login-com-Microsoft-AD-Microsoft-Entra-para-Empresas
