@@ -7,8 +7,11 @@
 3. **Nome do Aplicativo** - Insira um nome para o aplicativo que será fácil de reconhecer.
 4. **Tipos de Conta Suportados** - Escolha "Contas nesta organização somente (Microsoft somente - Único inquilino)" para restringir o login a membros da sua empresa.
 5. **URI de Redirecionamento** - Você precisará adicionar duas URIs de redirecionamento:
-   - Uma para o ambiente de desenvolvimento (ex: `http://localhost:3000/auth/callback`).
-   - Outra para o ambiente de produção (ex: `https://yourproductionapp.com/auth/callback`).
+   - Uma para o ambiente de desenvolvimento
+      - ex: `http://localhost:3000/auth/callback`
+   - Outra para o ambiente de produção
+      - ex: `https://yourproductionapp.com/auth/callback`
+        
    Isso garante que a aplicação possa operar tanto em ambiente local quanto quando for movida para produção.
 6. **Clique em Registrar** - Após inserir os detalhes necessários, clique em "Registrar".
 
